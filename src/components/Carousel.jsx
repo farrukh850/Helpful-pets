@@ -8,7 +8,7 @@ const NextArrow = ({ onClick }) => {
     return (
       <button 
         onClick={onClick} 
-        className="absolute md:top-1/2 top-[60%] right-[10px] md:right-[-40px] transform cursor-pointer -translate-y-1/2 z-50"
+        className="absolute md:top-[45%] top-[60%] right-[10px] md:right-[-40px] transform cursor-pointer -translate-y-1/2 z-50"
       >
         <img src="/images/arrow-forwarda.svg" alt="Arrow Next" />
       </button>
@@ -18,7 +18,7 @@ const PrevArrow = ({ onClick }) => {
     return (
       <button 
         onClick={onClick} 
-        className="absolute md:top-1/2 top-[60%] left-[10px] md:left-[-40px] transform cursor-pointer -translate-y-1/2 z-50"
+        className="absolute md:top-[45%]  top-[60%] left-[10px] md:left-[-40px] transform cursor-pointer -translate-y-1/2 z-50"
       >
         <img src="/images/arrow-back.svg" alt="Arrow Back" />
       </button>

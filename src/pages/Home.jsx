@@ -353,11 +353,11 @@ const Home = () => {
                 Basic
               </span>
               <div className="flex space-y-12 flex-col items-center">
-                <img src="/images/purple-check.svg" className="w-[24px] mt-28 md:w-[38px]" alt="Purple Check" />
+                <img src="/images/purple-check.svg" className="w-[24px] mt-28 md:mt-[-20px] md:w-[38px]" alt="Purple Check" />
                 <img src="/images/purple-check.svg" className="w-[24px] mt-[-20px] md:w-[38px]" alt="Purple Check" />
-                <img src="/images/purple-check.svg" className="w-[24px] md:w-[38px] md:mt-4 mt-32" alt="Purple Check" />
-                <img src="/images/grey-check.svg" className="w-[24px] md:w-[38px] md:mt-4 mt-8" alt="Purple Check" />
-                <img src="/images/grey-check.svg" className="w-[24px] md:w-[38px] md:mt-8 mt-44" alt="Purple Check" />
+                <img src="/images/purple-check.svg" className="w-[24px] md:w-[38px] md:mt-12 mt-32" alt="Purple Check" />
+                <img src="/images/grey-check.svg" className="w-[24px] md:w-[38px] md:mt-8 mt-8" alt="Purple Check" />
+                <img src="/images/grey-check.svg" className="w-[24px] md:w-[38px] md:mt-12 mt-44" alt="Purple Check" />
                 <img src="/images/grey-check.svg" className="w-[24px] mt-[-30px] md:w-[38px]" alt="Purple Check" />
               </div>
               <button className="w-full h-[74px] bg-[#e9ecf3] text-[30px] md:text-5xl leading-14 text-primary font-bold rounded-lg">$159</button>
@@ -369,11 +369,11 @@ const Home = () => {
                 Premium
               </span>
               <div className="flex space-y-12 flex-col items-center">
-                <img src="/images/double-check.svg" className="w-[24px] mt-28 md:w-[38px]" alt="Purple Check" />
+                <img src="/images/double-check.svg" className="w-[24px]  mt-28 md:mt-[-20px] md:w-[38px]" alt="Purple Check" />
                 <img src="/images/double-check.svg" className="w-[24px] mt-[-20px] md:w-[38px]" alt="Purple Check" />
-                <img src="/images/double-check.svg" className="w-[24px] md:w-[38px] md:mt-4 mt-32" alt="Purple Check" />
-                <img src="/images/double-check.svg" className="w-[24px] md:w-[38px] md:mt-4 mt-8" alt="Purple Check" />
-                <img src="/images/double-check.svg" className="w-[24px] md:w-[38px] md:mt-8 mt-44" alt="Purple Check" />
+                <img src="/images/double-check.svg" className="w-[24px] md:w-[38px] md:mt-12 mt-32" alt="Purple Check" />
+                <img src="/images/double-check.svg" className="w-[24px] md:w-[38px] md:mt-8 mt-8" alt="Purple Check" />
+                <img src="/images/double-check.svg" className="w-[24px] md:w-[38px] md:mt-12 mt-44" alt="Purple Check" />
                 <img src="/images/double-check.svg" className="w-[24px] mt-[-30px] md:w-[38px]" alt="Purple Check" />
               </div>
               <button className="w-full h-[74px] bg-[#e9ecf3] text-[30px] md:text-5xl leading-14 text-primary font-bold rounded-lg">$159</button>
