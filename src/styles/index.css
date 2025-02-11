@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: "poppins";
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+@layer base {
+    :root {
+      --color-primary: #234683;
+      --color-secondary: #24B2BC;
+      --color-accent: #FFC24F;
+    }
+}
+.bg-primary {
+    background-color: var(--color-primary);
+}
+  
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+  
+.bg-accent {
+    background-color: var(--color-accent);
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+  
+.text-secondary {
+    color: var(--color-secondary);
+}
+  
+.text-accent {
+    color: var(--color-accent);
+}
+@font-face {
+    font-family: 'Cerebri';
+    src: url('/src/assets/fonts/CerebriSansPro-Regular.ttf') format('ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Cerebri';
+    src: url('/src/assets/fonts/CerebriSansPro-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cerebri';
+    src: url('/src/assets/fonts/CerebriSansPro-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Cerebri';
+    src: url('/src/assets/fonts/CerebriSansPro-Bold.ttf') format('ttf');
+    font-weight: 700;
+}
+.bg-custom-gradient {
+    background: linear-gradient(270deg, rgba(251, 253, 255, 0.45) 4.4%, #FBFDFF 86.04%);
+}
