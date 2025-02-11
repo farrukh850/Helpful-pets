@@ -437,7 +437,7 @@ const Home = () => {
         </div>
       </div>
      </div>
-     <div className="py-20 pb-64 bg-[#24B2BC] bg-[url('/images/clouds.svg')] bg-cover bg-center">
+     <div className="py-20 pb-64 md:pb-20 bg-[#24B2BC] bg-[url('/images/clouds.svg')] bg-cover bg-center">
       <div className="container">
         <CommonHeading text="Ready to Get Started?" image="/images/paws.svg" color="#fff"  />
         <span className="block w-8 h-[2px] bg-accent mx-auto my-6"></span>
@@ -467,7 +467,7 @@ const Home = () => {
             </button>
           </form>
         </div> 
-        <div className="absolute left-0 md:-top-[170%] top-[-120%]">
+        <div className="absolute left-0 md:-top-[100%] top-[-120%]">
           <img src="/images/illustration2.svg" alt="Illustration" />
         </div>
       </div>
