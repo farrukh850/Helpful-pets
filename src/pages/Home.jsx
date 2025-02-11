@@ -450,7 +450,7 @@ const Home = () => {
         </div>
       </div>
      </div>
-     <div className="bg-[#EFF6FF] py-10 pt-50">
+     <div className="bg-[#EFF6FF] md:py-10 pt-50">
       <div className="container relative">
         <div className="flex flex-col max-w-[650px] justify-end ms-auto px-4 md:px-0">
           <div className="relative md:min-w-[500px]">
@@ -467,7 +467,7 @@ const Home = () => {
             </button>
           </form>
         </div> 
-        <div className="absolute left-0 md:-top-[100%] top-[-120%]">
+        <div className="absolute left-0 md:-top-[170%] top-[-120%]">
           <img src="/images/illustration2.svg" alt="Illustration" />
         </div>
       </div>

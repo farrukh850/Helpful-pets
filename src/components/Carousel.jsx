@@ -8,7 +8,7 @@ const NextArrow = ({ onClick }) => {
     return (
       <button 
         onClick={onClick} 
-        className="absolute top-1/2 right-[10px] md:right-[-40px] transform cursor-pointer -translate-y-1/2 z-50"
+        className="absolute md:top-1/2 top-[60%] right-[10px] md:right-[-40px] transform cursor-pointer -translate-y-1/2 z-50"
       >
         <img src="/images/arrow-forwarda.svg" alt="Arrow Next" />
       </button>
@@ -18,7 +18,7 @@ const PrevArrow = ({ onClick }) => {
     return (
       <button 
         onClick={onClick} 
-        className="absolute top-1/2 left-[10px] md:left-[-40px] transform cursor-pointer -translate-y-1/2 z-50"
+        className="absolute md:top-1/2 top-[60%] left-[10px] md:left-[-40px] transform cursor-pointer -translate-y-1/2 z-50"
       >
         <img src="/images/arrow-back.svg" alt="Arrow Back" />
       </button>
@@ -55,7 +55,7 @@ const Carousel = () => {
                         <img src="/images/star.svg" className="w-[23px]" alt="Star" />
                     </div>
                     <span className="inline-block w-[34px] h-[2px] bg-accent mb-8"></span>
-                    <h3 className="text-[22px] leading-7 md:text-3xl md:leading-11 font-bold text-white">I received my ESA letter quickly, and my landlord approved it right away! </h3>
+                    <h3 className="text-3xl leading-11 font-bold text-white">I received my ESA letter quickly, and my landlord approved it right away! </h3>
                </div>
             </div>
             <div className="flex-1">
@@ -68,7 +68,7 @@ const Carousel = () => {
             <img src="/images/quotes.svg" alt="Quotes" />
            </div>
         </div>
-        <div className={`rounded-[35px] bg-[#234683] relative`}>
+        <div className={`md:rounded-[35px] bg-[#234683] relative`}>
            <div className="flex flex-col md:flex-row  items-center justify-between py-10">
             <div className="flex-1 flex flex-col items-center justify-center">
                <div className="max-w-[396px] text-center">

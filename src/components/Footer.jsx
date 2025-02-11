@@ -37,10 +37,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="md:grid flex flex-col-reverse space-y-4 md:space-y-0 md:grid-cols-12 mt-25">
-        <small className="col-span-12 text-white md:col-span-3 opacity-50 text-sm leading-8">© 2025 HelpfulPets.com. All rights reserved.</small>
+        <small className="col-span-12 text-white md:col-span-3 opacity-50 text-sm leading-4">© 2025 HelpfulPets.com. All rights reserved.</small>
         <div className="col-span-12 md:col-span-9">
           <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row space-x-8 items-center p-5 bg-[#31528c] bg-opacity-[20%] rounded-2xl">
-            <span className="text-sm leading-7 text-white"><b className="text-[#FFC24F]">Get it touch?</b> We're usually around weekdays 9 am - 5 pm ET The fastest way to reach us is consult@helpfulpet.com</span>
+            <span className="block text-sm leading-7 text-white"><b className="text-[#FFC24F]">Get it touch?</b> We're usually around weekdays 9 am - 5 pm ET The fastest way to reach us is consult@helpfulpet.com</span>
             <div className="flex items-center space-x-10">
               <span className="flex items-center flex-col space-y-1"><img src="/images/footer-icon6.svg" className="w-4 h-4 object-contain" alt="FAQ Icon" /><p className="text-sm leading-7 text-white">FAQ</p></span>
               <span className="flex items-center flex-col space-y-1"><img src="/images/footer-icon7.svg" className="w-4 h-4 object-contain" alt="FAQ Icon" /><p className="text-sm leading-7 text-white">Chat</p></span>
